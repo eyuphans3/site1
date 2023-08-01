@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    background-color: orange;
+}
+
+.kadi{
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+.kinp{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    border-radius: 5px;
+}
+
+.sadi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sinp{
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    border-radius: 5px;
+}
+
+.giris{
+    position: absolute;
+    top: 60%;
+    left: 49%;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+
+.girisy{
+    position: absolute;
+    top: 31%;
+    left: 48%;
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    z-index: 2;
+}
+
+.hk{
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    color: orange;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hk1{
+    position: absolute;
+    top: 73%;
+    left: 49%;
+    color: orange;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.block{
+    position: absolute;
+    background-color: black;
+    width: 400px;
+    height: 450px;
+    left: 500px;
+    top: 140px;
+    box-shadow: 10px 10px 5px grey;
+}

@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html {
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    width: 200px;
+    top: -60px;
+    left: -20px;
+    z-index: 0;
+}
+
+.navbar {
+    background-color: white;
+    z-index: 1;
+    border-radius: 50px;
+}
+
+.menu {
+    position: absolute;
+    top: 18px;
+    font-family: 'Roboto', sans-serif;
+    left: 200px;
+    font-size: 18px;
+    color: black;
+    z-index: 2;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.menu:hover{
+    color: orange;
+}
+
+.menu:active{
+    top: 50px;
+    font-size: 10;
+}
+
+.kullanıcı{
+    position: absolute;
+    color: wheat;
+    z-index: 10;
+    font-size: 10px;
+    left: 100px;
+}
